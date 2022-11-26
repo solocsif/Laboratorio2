@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Programa que calcula el MCM y MCD de maximo 3 numeros ingresados");
+        System.out.println("Programa que calcula el Minimo Comun Multiplo y Maximo Comun Divisor de maximo 3 numeros ingresados");
         System.out.println("Cuantos Numeros va a ingresar");
         int cantidadnumeros= scan.nextInt();
-        if ((cantidadnumeros<=0)||(cantidadnumeros>3)){
-            while ((cantidadnumeros<=0)||(cantidadnumeros>3)){
+        if ((cantidadnumeros<=1)||(cantidadnumeros>3)){
+            while ((cantidadnumeros<=1)||(cantidadnumeros>3)){
                 System.out.println("solo puede elejir ingresar 2 numeros maximo 3");
                 cantidadnumeros= scan.nextInt();
             }
